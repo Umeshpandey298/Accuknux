@@ -8,4 +8,5 @@ class SynchDjangoConfig(AppConfig):
     def ready(self):
         import synch_Django.signals 
     
+    
 
